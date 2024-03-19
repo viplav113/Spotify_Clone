@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow:hidden ;
+    font-family: sans-serif;
+    position: relative;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,255,12,0.9472163865546218) 100%);
+}
+.navbar{
+    width: 100%;
+    padding: 23px 24px;
+    height: 50px;
+    background-color: black;
+}
+.navbar ul{
+    margin: 0px;#
+    list-style: none;
+    display: inline;
+}
+.navbar ul li{
+    font-size: 24px;
+    font-weight: 500;
+    float: left;
+    color: white;
+    margin-right: 50px;
+    list-style: none;
+    cursor: pointer;
+   
+}
+.navbar ul .brand{
+
+    margin-right: 512px;
+    margin-left: 20px;
+    font-size: 50px;
+    color:#60e254 ;
+}
+.navbar ul li:hover{
+    color: #60e254 ;
+}
+.marshmello{
+    position:absolute;
+    top: 160px;
+    left:48%;
+
+}
+.marshmello img{
+
+    height: 580px;
+}
+.home{
+    position: absolute;
+    color:#60e254;
+    top: 240px;
+    left: 40px;
+    font-size: 45px;
+    font-family: fantasy;
+    letter-spacing: 0.06em;
+    
+
+}
+.content{
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+    color: #ececec;
+}
+.btn{
+    position: absolute;
+    top: 422px;
+    left: 94px;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 1px solid #60e254;
+    border-radius: 18px;
+    transition: 0.5sec;
+    color:#60e254;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: #cee0cc; ;
+}
